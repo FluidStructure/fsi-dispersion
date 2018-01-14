@@ -1,0 +1,81 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{graphicx}
+\usepackage[top=2cm,left=2cm,bottom=2cm,right=2cm,head=16pt]{geometry}
+
+\usepackage{amsmath}
+
+\title{Dispersion diagrams - linear infinite compliant wall}
+\author{M. Pitman}
+
+\begin{document}
+
+\maketitle
+
+\section{Calculation Parameters}
+
+Calculation parameters for the wall: $\rho_m = 852$, $h = 0.01$, $d = 3000$, $K = 1.8399e7$, $E = 53.331e4$, $v = 0$, and the flexural rigidity is then given by:
+
+\begin{equation}
+ b = \frac{E(h^3)}{12(1-(v^2))}
+\end{equation}
+
+Calculation parameters for the fluid: $\rho = 1000$, $U = 22.5$.
+
+\section{Results}
+
+The diagram of $c$ against $k$ for the system is presented below along with the diagram of $ck$ against $k$.
+
+\begin{figure}[htb]
+\centering
+ \includegraphics[width=0.45\textwidth]{c_vs_k_02}
+ \includegraphics[width=0.45\textwidth]{ck_vs_k_02}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+ \includegraphics[width=0.45\textwidth]{c_vs_k}
+ \includegraphics[width=0.45\textwidth]{ck_vs_k}
+\end{figure}
+
+Snapshots of wall motion are plotted for the values of $k$ and $c$ marked on the dispersion diagram.  $20$ snapshots of the wall motion are plotted throughout the time required for the wall to travel a distance of one-half wavelength $(\lambda/2)$.  The real time over which the wall motions are plotted are presented in the title of the wall snapshot diagrams.  The corresponding values of $k$ and $c$ for which the wall motions are plotted are shown at the foot of the dispersion diagram.
+
+The line plotted with data points in the wall snapshot is the \emph{final} wall position.
+
+\begin{figure}[htb]
+\centering
+ \includegraphics[width=0.45\textwidth]{disp_k20_c01}
+ \includegraphics[width=0.45\textwidth]{mot_k20_c01}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+ \includegraphics[width=0.45\textwidth]{disp_k20_c02}
+ \includegraphics[width=0.45\textwidth]{mot_k20_c02}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+ \includegraphics[width=0.45\textwidth]{disp_k37_c01}
+ \includegraphics[width=0.45\textwidth]{mot_k37_c01}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+ \includegraphics[width=0.45\textwidth]{disp_k37_c02}
+ \includegraphics[width=0.45\textwidth]{mot_k37_c02}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+ \includegraphics[width=0.45\textwidth]{disp_k50_c01}
+ \includegraphics[width=0.45\textwidth]{mot_k50_c01}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+ \includegraphics[width=0.45\textwidth]{disp_k50_c02}
+ \includegraphics[width=0.45\textwidth]{mot_k50_c02}
+\end{figure}
+
+\end{document}
